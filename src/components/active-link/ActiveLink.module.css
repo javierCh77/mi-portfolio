@@ -3,5 +3,5 @@
 }
 
 .active-link{
-    @apply text-white;
+    @apply text-white ;
 }

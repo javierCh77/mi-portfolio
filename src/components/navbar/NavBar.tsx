@@ -18,6 +18,9 @@ const NavBar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
 
   return (
@@ -86,9 +89,10 @@ const NavBar = () => {
         </div>
         {/* Menu Links */}
         {navItems.map((navItem) => (
-        <ActiveLink  key={navItem.path} {...navItem} />
+        <ActiveLink   onClick={handleLinkClick}     key={navItem.path} {...navItem} />
       ))}
       </div>
+      
     </div>
   );
 };
