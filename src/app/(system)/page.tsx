@@ -1,10 +1,11 @@
 'use client'
+
 import Hero from "../../components/hero/Hero";
 
-
 const page = () => {
+
   return (
-    <main>
+    <main className="hero">
       <Hero />
     </main>
   )
