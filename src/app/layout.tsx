@@ -13,10 +13,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className='bg-[#0b0a14]'>
+      <body className='bg-[#0b0a14] w-full justify-center flex flex-col items-center'>
+      <div className='flex w-full md:w-9/12  flex-col'>
       <Background />
         <NavBar/>
             {children}
+            </div>
       </body>
     </html>
   )

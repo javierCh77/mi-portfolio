@@ -24,7 +24,7 @@ const NavBar = () => {
 
 
   return (
-    <div className="relative p-4 flex justify-center">
+    <div className="relative p-4 flex justify-center  ">
       <nav className="flex justify-between w-8/12 items-center rounded-full p-2 shadow-[#fffeff80] shadow-inner bg-[#0e0e278e] text-[#4b5dad]">
         {/* Logo Section */}
         <div className="text-xl font-bold px-4">
